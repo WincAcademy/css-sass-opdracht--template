@@ -144,31 +144,13 @@ a.nav-link:focus {
 .menu li {
   margin-top: 3em;
 }
-.social-menu {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-}
-.social-menu li a {
-  margin: 0 0.5em;
-  padding: 0.5em;
-}
-.social-menu li a {
-  font-size: 1.2em;
-}
-.social-menu li a:hover,
-.social-menu li a:active,
-.social-menu li a:focus {
-  border-bottom: solid 1px #000;
-}
 
 /* Hero Section */
 .hero {
   display: flex;
   height: 100vh;
   align-items: center;
-  background: #97d279 url("https://i.postimg.cc/9fTzqwtw/flower2.png") no-repeat
-    right bottom;
+  background-color: #97d279;
 }
 .hero-img img {
   display: none;
