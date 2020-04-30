@@ -37,7 +37,10 @@ a {
 ul {
   list-style: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,7 +64,10 @@ ul {
   display: inline-block;
   padding: 0.5em 1.5em;
   border: solid 1px #000;
+<<<<<<< HEAD
   -webkit-transition: all 0.3s ease-in;
+=======
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
   transition: all 0.3s ease-in;
 }
 
@@ -74,11 +80,40 @@ ul {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+form {
+  display: flex;
+}
+form input:first-child {
+  flex: 1 0 80%;
+  background-color: transparent;
+}
+form input:last-child {
+  flex: 1 0 20%;
+  border-left: 0;
+  cursor: pointer;
+  background-color: #c0eea9;
+  transition: all 0.25s ease;
+}
+#submit:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.25s ease;
+  -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+}
+input {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+/* Pas alleen de onderstaande regels aan */
 
 form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
 }
 
 form input:first-child {
@@ -136,10 +171,30 @@ input {
   padding-top: 20px;
   height: 7.5em;
 }
+=======
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  background-color: #c0eea9;
+  height: 120px;
+  -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+}
+
+.brand-logo img {
+  width: auto;
+  padding-top: 20px;
+  height: 7.5em;
+}
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
 
 /* Hero Section */
 .hero {
   padding: 20px;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +209,17 @@ input {
   display: block;
   height: auto;
   width: 300px;
+=======
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #97d279;
+}
+.hero-img img {
+  display: block;
+  height: auto;
+  width: 15.5em;
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
 }
 
 .hero__text {
@@ -163,6 +229,7 @@ input {
 /* Featured Section */
 .featured {
   padding: 20px;
+<<<<<<< HEAD
 }
 
 .featured__wrapper {
@@ -190,10 +257,46 @@ input {
 }
 
 /* About Section */
+=======
+}
+.featured .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#featured .image img {
+  width: 300px;
+}
+
+.text-featured {
+  max-width: 700px;
+  text-align: center;
+  padding-top: 1em;
+}
+.text-featured p {
+  text-align: justify;
+  padding: 20px;
+  line-height: 1.4em;
+}
+
+/* About Section */
+
+.text-about {
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
+.text-about p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 1.4em;
+}
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
 .about {
   background-color: #97d279;
   padding: 20px;
 }
+<<<<<<< HEAD
 
 .about__text {
   max-width: 700px;
@@ -230,6 +333,25 @@ input {
 }
 
 .about__video-wrapper iframe {
+=======
+.about .wrapper {
+  display: flex;
+}
+.about .text {
+  flex: 1 0 40%;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 33.25%;
+  overflow: hidden;
+  align-self: center;
+  flex: 2 0 55%;
+  margin: 1.4em 0;
+}
+
+.video-wrapper iframe {
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
   position: absolute;
   top: 0;
   left: 0;
@@ -241,6 +363,7 @@ input {
 .contact {
   padding: 20px;
 }
+<<<<<<< HEAD
 
 .contact__wrapper {
   display: -webkit-box;
@@ -255,6 +378,18 @@ input {
 }
 
 .copy {
+=======
+.wrapper .contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-wrapper,
+.contact-wrapper {
+  padding: 20px;
+}
+
+.copy-wrapper {
+>>>>>>> c6061be8300aa31c489372773217b3bd56b6515a
   padding-left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
