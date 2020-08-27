@@ -184,9 +184,6 @@ header {
 .about .wrapper {
   display: flex;
 }
-.about .text {
-  flex: 1 0 40%;
-}
 
 .video-wrapper {
   position: relative;
